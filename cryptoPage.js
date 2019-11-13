@@ -214,7 +214,9 @@ function descramblerArray(unscrambledArray, scrambledArray) {
     descrambleArray(scrambledArray, function(descrambledArray) {
         appendArrayToID(descrambledArray, $("#descrambledPasswords"));
         validateArrays(unscrambledArray, descrambledArray);
-    });
+    });Submission on BCS
+
+Please submit both the deployed Github.io link to your homework AND the link to the Github Repository!
 }
 
 // This calls scrambleArray and passes the append function + a call to descramblerArray.
@@ -229,7 +231,9 @@ function rest2ScramblerArray(unscrambledArray) {
 
 // This calls descrambleArray and passes the append function + a call to validateArrays.
 function rest2DescramblerArray(unscrambledArray, scrambledArray) {
-    rest2DescrambleArray(scrambledArray, function(descrambledArray) {
+    rest2DescrambleArray(scrambledArray, function(descrambledArray) {Submission on BCS
+
+Please submit both the deployed Github.io link to your homework AND the link to the Github Repository!
         appendArrayToID(descrambledArray, $("#descrambledPasswords"));
         //validateArrays(unscrambledArray, descrambledArray);
     });
